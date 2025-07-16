@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <title>Small Text Generator | ZarCodeX</title>
+  <link rel="icon" type="image/x-icon" href="ZarCodeX - Round.png">
+
+  <meta name="description" content="Small Text Generator by ZarCodeX – instantly transform your text into small caps, superscript, or subscript. Fast, free, and easy to use!" />
+  <meta name="keywords" content="small text generator, small caps, superscript, subscript, text transform, ZarCodeX" />
+  <meta name="author" content="Muhammad Abuzar (ZarCodeX)" />
+  <meta name="robots" content="index, follow" />
+  <link rel="icon" href="img/icons/ZarCodeX - Round.png" sizes="any" />
+  <link rel="icon" href="img/icons/ZarCodeX - Round.png" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="img/icons/ZarCodeX - Round.png" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#dcdce7" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111111" />
+  <meta name="msapplication-navbutton-color" content="#111111" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Small Text Generator | ZarCodeX" />
+  <meta property="og:description" content="Transform your text into small caps, superscript, or subscript in one click. Built by ZarCodeX." />
+  <meta property="og:url" content="https://zarcodex.github.io/small-text-generator/" />
+  <meta property="og:site_name" content="Small Text Generator" />
+  <meta property="og:image" content="https://raw.githubusercontent.com/ZarCodeX/zarcodex.github.io/main/img/icons/ZarCodeX - Round.png" />
+  <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/ZarCodeX/zarcodex.github.io/main/img/icons/ZarCodeX - Round.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="628" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Small Text Generator | ZarCodeX" />
+  <meta name="twitter:description" content="Instantly convert your text into small caps, superscript, or subscript. Free and easy to use!" />
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/ZarCodeX/zarcodex.github.io/main/img/icons/ZarCodeX - Round.png" />
+  <meta name="twitter:site" content="@ZarCodeX" />
+
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Small Text Generator</h1>
+      <div class="creator">CREATED BY ZARCODEX</div>
+    </header>
+
+    <div class="generator">
+      <!-- Input -->
+      <div class="input-section">
+        <textarea id="inputText" placeholder="Type your text here…"></textarea>
+      </div>
+
+      <!-- Outputs -->
+      <div class="output-section">
+        <div class="out-card">
+          <h2>Small Caps <button class="copy-btn" data-type="smallcaps">Copy</button></h2>
+          <div id="smallcapsResult" class="output-area"></div>
+        </div>
+        <div class="out-card">
+          <h2>Superscript <button class="copy-btn" data-type="superscript">Copy</button></h2>
+          <div id="superscriptResult" class="output-area"></div>
+        </div>
+        <div class="out-card">
+          <h2>Subscript <button class="copy-btn" data-type="subscript">Copy</button></h2>
+          <div id="subscriptResult" class="output-area"></div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      &copy; 2023 ZarCodeX — Small Text Generator
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
